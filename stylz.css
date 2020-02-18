@@ -3,10 +3,6 @@ body {
 	background: #001eeb;
 }
 
-canvas {
-	opacity: .5;
-}
-
 .top {
 	z-index: 2;
 	color: white;

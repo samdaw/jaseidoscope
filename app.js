@@ -28,7 +28,7 @@ c.width = k.radius * 2;
 c.height = k.radius * 2;
  
 var img = new Image();
-img.src = 'https://images.unsplash.com/photo-1504532472068-9ae844337da7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e76ebffebd8e3c65985875554e36f35&auto=format&fit=crop&w=1334&q=80'; 
+img.src = '/jase.jpg'; 
 var fill = ctx.createPattern(img, 'repeat'); 
 
 var scale, step, cx;

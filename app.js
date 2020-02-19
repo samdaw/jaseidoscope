@@ -75,8 +75,8 @@ function mousemove(e){
     cy = wh / 2;
     dx = e.pageX / ww;
     dy = e.pageY / wh;
-    hx = dx - 1.5;
-    hy = dy - 1.5;
+    hx = dx - 2;
+    hy = dy - 2;
     tx = hx * k.radius * -.8;
     ty = hy * k.radius * .8;
 }

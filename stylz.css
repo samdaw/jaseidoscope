@@ -1,9 +1,9 @@
-/* body {
+body {
 	display: flex;
 	background: #001eeb;
-} */
+}
 
-/* .top {
+.top {
 	z-index: 2;
 	color: white;
 	position: fixed;
@@ -55,4 +55,4 @@
 
 h2:hover {
 	text-decoration: underline;
-} */
+}

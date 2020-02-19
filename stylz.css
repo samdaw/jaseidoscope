@@ -27,3 +27,7 @@ body {
 h2:hover {
 	text-decoration: underline;
 }
+
+h2 {
+	margin: 0px;
+}

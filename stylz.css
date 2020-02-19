@@ -10,46 +10,17 @@ body {
 	left: 70px;
 	top: 70px;
 	font-family: 'Work Sans', sans-serif;
-}
-
-.spin {
-	margin: 0 auto;
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	animation: spinZ 20s linear infinite;
-	text-align: center;
-
-	span {
-		position: absolute;
-		display: inline-block;
-		left: 0;
-		right: 0;
-		top: 0;
-		bottom: 0;
-		text-transform: uppercase;
-		font-size: 3em;
-		transition: all .8s cubic-bezier(0,0,0,1);
-	}
-
-	@keyframes spinZ {
-		0% {
-			transform: rotateZ(360deg);
-		}
-		100% {
-			transform: rotateZ(0deg);
-		}
-	}
+	text-transform: uppercase;
+	font-size: 3em;
 }
 
 .right {
 	z-index: 2;
 	color: white;
-	font-size: 5em;
+	font-size: 100px;
 	position: fixed;
-    right: 100px;
-	bottom: 100px;
-	line-height: 7em;
+    	right: 70px;
+	bottom: 70px;
 	font-family: 'Gelasio', serif;
 }
 

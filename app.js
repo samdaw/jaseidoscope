@@ -15,7 +15,7 @@ var k = {
 	offsetY: 0,
 	radius: 1100,
 	slices: 16,
-	zoom: 1.5
+	zoom: 1
 };
 body.appendChild(c);
 c.width = k.radius * 2;

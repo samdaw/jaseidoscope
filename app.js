@@ -13,15 +13,15 @@ var k = {
 	offsetScale: .8,
 	offsetX: 0,
 	offsetY: 0,
-	radius: 1100,
-	slices: 16,
-	zoom: 1
+	radius: 1200,
+	slices: 14,
+	zoom: .9
 };
 body.appendChild(c);
 c.width = k.radius * 2;
 c.height = k.radius * 2;
 var img = new Image();
-img.src = 'jase2.jpg'; 
+img.src = 'jase3.jpg'; 
 var fill = ctx.createPattern(img, 'repeat'); 
 var scale, step, cx;
 scale = k.zoom * (k.radius / Math.min(img.width, img.height));

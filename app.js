@@ -1,18 +1,13 @@
 var doc = document,
 	win = window,
 	body = doc.body;
-
 var ww = win.innerWidth,
 	wh = win.innerHeight;
-
 var c = doc.createElement('canvas'),
 	ctx = c.getContext('2d');
-
 var half_PI = Math.PI / 2,
 	two_PI = Math.PI * 2,
 	ease = 0.01;
-
- 
 var k = {
 	offsetRotation: 0,
 	offsetScale: .8,
@@ -22,25 +17,18 @@ var k = {
 	slices: 12,
 	zoom: .7
 };
-
 body.appendChild(c);
 c.width = k.radius * 2;
 c.height = k.radius * 2;
- 
 var img = new Image();
-img.src = '/jase.jpg'; 
+img.src = 'jase2.jpg'; 
 var fill = ctx.createPattern(img, 'repeat'); 
-
 var scale, step, cx;
-
 scale = k.zoom * (k.radius / Math.min(img.width, img.height));
 step = two_PI / k.slices;
 cx = img.width / 2;
-
 function draw(){
-      
 	ctx.fillStyle = fill;
-      
 	for (var i = 0; i <= k.slices; i++) {
 		ctx.save();
 		ctx.translate(k.radius, k.radius);
